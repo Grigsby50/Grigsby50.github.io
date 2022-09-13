@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <link rel="stylesheet" href="dev-con.css">
+    
+    </head>
+
+<header>
+    <h1 class="pageTop"><a class="home" href="dev-con-site.html">2023 Dev-Con</a>
+    <sub><time><em>April 26th 2023</em></time></sub>
+</h1>
+<div class="container">
+    <a href="dev-con-panel.html">2023 Panel</a>
+    <a href="dev-con-itinerary.html">Itinerary</a>
+    <a href="dev-con-map.html">Convention Map</a>
+    <a href="dev-con-recap.html">2022 Recap</a>
+    <a href="dev-con-jobs.html">Open Jobs</a>
+    </div>
+<h3>This year we are going BIGGER THAN EVER</h3>
+
+</header>
+    <h2>Join Within the next <p id="cntdown"></p>To Recieve a <strong>FREE</strong> portfolio consultation !</h2>
+
+<body>
+  <main>
+<h1 class="code">Want to Learn to Code By<br>
+    Watching Others?</h1>
+
+<details>
+    <summary>Click Here to Learn More!</summary>
+    <div class="description">With this truly one of a kind opportunity you can watch
+some of the best and brightest Full-Stack Dev's. As they take a deep dive into their daily routines. 
+They will also give tips and provide roadmaps that led to their big break in the tech industry!
+You can expect to hear what got them started with coding. Signing up for the V.I.P immersive program
+grants you the opportunity to a live private Q&A seminar with our panel of Dev's!
+    </div>
+</details>
+</main>
+
+<form>
+    <h1 class="signUp">Sign Up Here</h1>
+    <ul class="flex-outer">
+        <div class="form">
+      <li>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" placeholder="Enter your first name here">
+      </li>
+
+      <li>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="Enter your last name here">
+      </li>
+
+      <li>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email here">
+      </li>
+
+      <li>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="Enter your phone here">
+      </li>
+
+      <li>
+        <label for="message">Message</label>
+        <textarea rows="4" id="message" placeholder="Tell us Why You are Interested in attending."></textarea>
+      </li>
+
+      <li>
+
+        <p>Coding Experience</p>
+        <ul class="flex-inner">
+          <!-- list items here -->
+            <li>
+                <div class="chck">
+              <input type="checkbox" id="entry-level">
+              <label for="entry-level">Entry-Level/Junior</label>
+            </li>
+            <li>
+              <input type="checkbox" id="mid">
+              <label for="mid">Mid-Level</label>
+            </li>
+            <li>
+            <input type="checkbox" id="exp">
+            <label for="exp">Coding Master</label>
+            </li>
+          </ul>
+        </ul>
+      
+
+        <button type="submit">Submit</button>
+    </div>
+    </ul>
+  </form>
+</body>
+
+<footer>
+  <nav>
+    <address> 
+      <div class="contact">
+      <h1 class="footer">Contact Us</h1>
+     <a href="mailto:JoshuaGrigsby50@gmail.com">JoshuaGrigsby50@gmail.com</a><br>
+     <a href="tel:+12607101028" class="ring">(260)710-1028</a>
+    </address>
+    </nav>
+    <h1 class="footer"><abbr><a href="#">FAQ</a></abbr></h1>
+  </div>
+
+
+</footer>
+
+
+<script>
+    // the date we're counting down to
+    var countDownDate = new Date("April 26, 2023 15:37:25").getTime();
+    
+    // Updating the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("cntdown").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("cntdown").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+
+    $("button").on("click", function() {
+      alert("We will be In Touch Soon! Thank you for applying!");
+    });
+  
+    </script>
+</html>

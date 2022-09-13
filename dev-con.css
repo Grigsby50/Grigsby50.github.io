@@ -1,0 +1,210 @@
+/*main-site*/
+summary{
+    border: 2px black solid;
+    padding: 25px;
+    background: orchid;
+    border-radius: 12px;
+    float: left;
+}
+summary:hover{color:black;}
+summary:active{color:darkorchid;}
+
+body{
+    background-size: contain;
+    background-image:url("https://previews.123rf.com/images/eigens/eigens1909/eigens190900911/129563940-abstract-colorful-background-with-baby-pink-pale-violet-red-and-indian-red-colors-can-be-used-for-po.jpg");
+    background-color: palevioletred;
+}
+
+.code{
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(99, 91, 91) ;
+    
+
+}
+
+h2{
+    text-align: center;
+    background-color: wheat;
+    color: orchid;
+    background-size: fill;
+    font-size: 20px;
+    border: 25px rgba(99, 91, 91, 0.932) solid;
+    border-radius: 35px;
+    margin-top: 10px;
+    max-width: 450px;
+    float: right;
+    
+    
+
+}
+
+.description{
+    font-size: larger;
+    font-weight: bold;
+    color:orchid;
+    margin-right: 0%;
+    padding: 20px;
+    background: cornsilk;
+    border: 2px black solid ;
+    border-radius: 12px;
+}
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+ 
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+.flex-outer li {
+  margin: 5px;
+  padding: 5px;
+
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+  float:left
+}
+button{
+  margin-left: 45%;
+  padding: 8px 16px;
+  border: 2px white solid;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+.chck{
+    display: inline-block;
+
+}
+.form{
+    margin-left: 25%;
+    background-color: rgba(99, 91, 91, 0.671);
+    border: 2px orchid solid;
+    float: left;
+    max-width: 450px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(99, 91, 91);
+    margin-right: 45px;
+}
+.pageTop{
+    text-align: center;
+    background-color:orchid;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: 10px rgba(0, 0, 0, 0.678) solid;
+    font-size: 50px;
+
+}
+header{
+    margin-bottom: 100px;
+}
+.signUp{
+   border: 1px white solid;
+   margin-left: 45px;
+   text-align: center;
+   background-color: rgba(165, 32, 125, 0.5);
+   max-width: 450px;
+   padding-left: 20px;;
+   align-items: center;
+}
+.input{
+    margin-right: 35px;
+}
+.flex-inner{
+    align-items:center;
+}
+sub{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(99, 91, 91);
+    margin-top: 25px;
+}
+.container{
+    max-width: 45px;
+    margin: 25%;
+    padding-left:35px;
+    font-size: 20px;
+    display: inline;
+    border: 3px white solid;
+    background-color: cornsilk;
+    border-radius: 35px;
+    
+    
+}
+a{
+    font-weight: bolder;
+    color: rgb(99, 91, 91);
+    padding-right: 20px;
+    
+}
+.footer{
+    text-align: center;
+    color: black;
+    background-color: none;
+}
+.contact{
+    color: rgb(68, 14, 75);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+a:hover{color: rgb(68, 14, 75);}
+a:active{color: rgba(165, 32, 125, 0.5)}
+
+
+/*Panel Css*/
+.container-panel{
+    max-width: 45px;
+    margin: 25%;
+    padding-left: 25px;
+    font-size: 20px;
+    display: inline;
+    border: 3px white solid;
+    background-color: cornsilk;
+    border-radius: 35px; 
+}
+.panel23{
+    width: 75%;
+    height: 75%;
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   /* margin: 10px 70px 10px 30px; */
+    
+}
+.links{
+    border: 3px rgba(165, 32, 125, 0.5) solid;
+    background-color: rgba(165, 32, 125, 0.5);
+    margin-left: 35px;
+    font-size: 30px;
+    color: white;
+    
+}
+p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
